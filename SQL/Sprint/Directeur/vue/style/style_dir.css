@@ -1,0 +1,103 @@
+table,td
+{
+	empty-cells:hide;
+	border: 1px solid black;
+	border-collapse:separate;
+	background-color:white;
+	text-align: center;
+}
+
+td
+{
+	width:10000000px;
+}
+th
+{
+	border-collapse:separate;
+	width:20%;
+	height:15%;
+}
+
+body
+{
+	font-family: Arial;
+	background-color:RGB(128,250,250);
+	width:100%;
+	height:100%;
+}
+
+fieldset:not(.a),fieldset:not(.form)
+{
+	border:3px solid #000;
+	background-color:RGB(128,250,250);
+	width:700px;
+	left:25%;
+	right:25%;
+	font-weight:bolder;
+	text-align: center;
+	margin:auto;
+	border-radius:10px;
+}
+
+fieldset.a
+{
+	left: 25.8%;
+	border:none;
+}
+
+fieldset.form
+{
+	border:0px solid #000;
+	left:0%;
+	border:none;
+	margin:auto;
+}
+
+label
+{
+	font-weight:bold;
+	text-align: center;
+}
+
+input[type="submit"],input[type="reset"]
+{
+	font-weight: bold;
+}
+
+input[id="deco"]
+{
+	margin:auto;
+	margin-left: 90%;
+    margin-bottom: 5%;
+}
+
+input[id="retour_dir"],input[id="retour_stat"]
+{
+	margin:auto;
+	margin-left: 92%;
+	margin-top:5%;
+}
+
+p.b>input
+{
+	position:relative;
+	margin-top:5%;
+	margin-bottom:5%;
+	width:100%;
+}
+
+.err
+{
+	font-size:300%;
+	color:red;
+	border:10px solid #000;
+	font-weight:bolder;
+	text-align: center;
+	margin:auto;
+	border-radius:10px;
+	vertical-align:middle;
+	width:95%;
+	margin-top:10%;
+	padding-top:5%;
+	padding-bottom:5%;
+}

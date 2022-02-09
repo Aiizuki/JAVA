@@ -1,0 +1,145 @@
+table{
+border-spacing : 0;
+border-collapse : collapse;
+}
+
+body{
+    background-color: #aaffaa;
+}
+form {
+    width:75%;
+    }
+
+p{
+    color : #041b04;
+}
+
+li::after{
+    margin:15px
+}
+ul,li,nav{
+    display:inline-block; text-align:middle;
+}
+a{
+    font-size: 0;
+}
+fieldset {
+    background-color: rgba(12, 143, 67, 0.5);border-radius:5px;margin-bottom:10px;border-color:#CCC;border:1px;border-style:solid;max-width:100%;	
+}
+fieldset:hover{
+    box-shadow:	0pt 2px 5px rgba(105,108,109,0.7), 0px 0px 8px 5px rgba(208,223,226,0.4)inset
+}
+legend{
+    color:#FFF;background-color:#00a349;border-color:#bebebe;border-style:solid;border-width:1px;
+}
+.centrale{
+    padding-top:3%;width:100%	
+}
+td[class="Index"]{
+    text-align: center;
+    vertical-align: middle;
+    background: #55ff55;
+}
+td[class="Index"]:hover{
+    background: #55ff55;
+}
+table {
+    border: 1px solid green;
+    border-collapse: collapse;
+    width: 840px;
+}
+td{
+    border: 1px solid green;
+    text-align: center;
+    vertical-align: middle;
+    width:120px;
+    background: #66ff66;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+td[class="Heure"]{
+    background-color: #66ff66;
+}
+tr{
+    height: 60px;
+    border : 1px solid green;
+}
+td:hover{
+    background-color: #77ff77;
+}
+html {
+    width:100%;padding:0;margin:0
+}
+input{
+    border-radius:5px;
+    width:14%;
+    transition: all 0.2s linear;
+}
+input[type='submit']{
+    border-radius : 3px;
+    width:auto;
+    transition: all 0.2s linear;
+}
+input[type='button']{
+    border-radius : 3px;
+    width:auto;
+    transition: all 0.2s linear;
+}
+
+select{
+    border-radius:5px;
+}
+
+input:focus{
+    background-color:rgb(201, 201, 201);
+}
+
+input[type = "submit"][class="BoutonDispo"]{
+    width : 120px;
+    height: 60px;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    border-radius: 0%;
+}
+
+input[type = "submit"][class="BoutonIndispo"]{
+    width : 120px;
+    height: 60px;
+    background: grey;
+    border: none !important;
+    font-size:0;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    border-radius: 0%;
+}
+
+input[type = "submit"][class="BoutonIndispo"]:hover{
+    width : 120px;
+    height: 60px;
+    background: rgb(175, 175, 175);
+    border: none !important;
+    font-size:0;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    border-radius: 0%;
+}
+
+div[class='colonne1']{
+    float: left;
+    margin-right: 5px;
+}
+
+p[class = "erreur"]{
+    color:red;
+}

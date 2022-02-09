@@ -1,0 +1,68 @@
+td[class="Jours"]{
+	text-align: center;
+	vertical-align: middle;
+	background: #ffaaaa;
+}
+td[class="Jours"]:hover{
+	background: #ffcccc;
+}
+table {
+	border: 1px solid red;
+	border-collapse: collapse;
+	width: 840px;
+}
+fieldset[class="autres"]{
+	width: 100%;
+}
+fieldset[class="Resume"]{
+	width: 400px;
+}
+div[class="colonne1"]{
+	float:left;
+	margin-right: 5px;
+}
+div[class="colonne2"]{
+	background-color: #ffdddd;
+	text-align: left;
+}
+form[class="bouttons"]{
+	width: 120px;
+	height: 60px;
+	padding-top: 0%;
+    padding-bottom: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+input[type = "submit"][class="LeBoutton"]{
+    width : 120px;
+    height: 60px;
+    background: transparent;
+    border: none !important;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    border-radius: 0%;
+}
+td{
+    border: 1px solid red;
+    text-align: center;
+    vertical-align: middle;
+    width:120px;
+    background: #ffbbbb;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+tr{
+	height: 60px;
+}
+td:hover{
+	background-color: #ffdddd;
+}
+body{
+	font-family: sans-serif;
+	color: #552222;
+	background-color: #ffeeee;
+}

@@ -1,0 +1,48 @@
+input[type="submit"],input[type="reset"]
+{
+	font-weight: bold;
+}
+
+body
+{
+	font-family: Arial;
+	background-color:#b2ffff;
+	text-align: center;
+}
+
+fieldset
+{
+	position:relative;
+	border:none;
+	margin:auto;
+	margin-top:15%;
+}
+
+label
+{
+	font-weight:bold;
+	text-align: center;
+}
+
+.err
+{
+	font-size:300%;
+	color:red;
+	border:10px solid #000;
+	font-weight:bolder;
+	text-align: center;
+	margin:auto;
+	border-radius:10px;
+	vertical-align:middle;
+	width:95%;
+	margin-top:10%;
+	padding-top:5%;
+	padding-bottom:5%;
+}
+
+input[id="retour_co"]
+{
+	margin:auto;
+	margin-left: 92%;
+	margin-top:5%;
+}
